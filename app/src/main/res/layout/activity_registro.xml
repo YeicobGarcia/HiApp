@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo_ingreso"
+    tools:context=".Registro">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <Spinner
+            android:id="@+id/genero"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="240dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="480dp"
+            android:background="@drawable/btn"
+            android:contentDescription="@string/app_name"
+            android:foregroundGravity="left"
+            android:gravity="fill_vertical" />
+
+        <ImageButton
+            android:id="@+id/ImgRecap"
+            android:layout_width="147dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:visibility="gone"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="200dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="115dp"
+            android:background="#00000000"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            android:src="@drawable/recaptcha"
+            android:textColor="#F9A825" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/imgFoto"
+            android:layout_width="131dp"
+            android:layout_height="135dp"
+            android:layout_marginVertical="22dp"
+            android:layout_marginTop="43dp"
+            android:layout_marginBottom="-94dp"
+            android:background="@drawable/btn"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/subir" />
+
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_marginVertical="5dp"
+            android:layout_marginRight="95dp"
+            android:background="@drawable/btn"
+            android:hint="Usuario"
+            android:paddingLeft="15dp"
+            android:textColorHint="#1FD1BB" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="190dp"
+            android:layout_height="48dp"
+            android:layout_marginVertical="5dp"
+            android:layout_marginRight="75dp"
+            android:background="@drawable/btn"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:paddingLeft="15dp"
+            android:textColorHint="#1FD1BB" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="220dp"
+            android:layout_height="48dp"
+            android:layout_marginVertical="5dp"
+            android:layout_marginRight="59dp"
+            android:background="@drawable/btn"
+            android:hint="Nombre"
+            android:paddingLeft="15dp"
+            android:textColorHint="#1FD1BB" />
+
+        <EditText
+            android:id="@+id/surname"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:layout_marginVertical="5dp"
+            android:layout_marginRight="45dp"
+            android:background="@drawable/btn"
+            android:hint="Apellido"
+            android:paddingLeft="15dp"
+            android:textColorHint="#1FD1BB" />
+
+        <EditText
+            android:id="@+id/dpi"
+            android:layout_width="290dp"
+            android:layout_height="48dp"
+            android:layout_marginVertical="5dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/btn"
+            android:hint="DPI"
+            android:inputType="number"
+            android:paddingLeft="15dp"
+            android:textColorHint="#1FD1BB"
+            android:textSize="17dp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="320dp"
+            android:layout_height="48dp"
+            android:layout_marginVertical="5dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/btn"
+            android:hint="Correo electronico"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="15dp"
+            android:textColorHint="#1FD1BB"
+            android:textSize="17dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="20dp"
+            android:background="#1FD1BB" />
+
+        <CheckBox
+            android:id="@+id/TyCondiciones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="60dp"
+            android:buttonTint="#FFFBF8"
+            android:hint="#FFFBF8"
+            android:minHeight="49dp"
+            android:text="Acepto los terminos y condiciones"
+            android:textColor="#F9A825" />
+
+        <CheckBox
+            android:id="@+id/ChekCaptcha"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/btn"
+            android:buttonTint="#FFFBF8"
+            android:hint="#FFFBF8"
+            android:text="No soy un Robot "
+            android:visibility="gone"
+            android:textColor="#F9A825"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TyCondiciones" />
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="260dp"
+            android:layout_height="48dp"
+            android:layout_marginVertical="5dp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/btncolor"
+            android:text="Registrar"
+            android:textAllCaps="false"
+            android:textColor="#FFFBF8" />
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnSignUp" />
+
+        <TextView
+            android:id="@+id/YaMiembro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Ya soy miembro"
+            android:textColor="@color/teal_200" />
+
+
+    </LinearLayout>
+</RelativeLayout>
