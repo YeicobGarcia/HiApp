@@ -12,9 +12,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HiApp">
         <activity
-            android:name=".opciones_chat"
-            android:exported="false" />
-        <activity
             android:name=".Login"
             android:exported="false" />
         <activity
