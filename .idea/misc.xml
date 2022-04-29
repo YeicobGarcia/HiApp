@@ -3,10 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/calde/AndroidStudioProjects/HiApp/app/src/main/res/layout/activity_login.xml" value="0.264" />
-        <entry key="..\:/Users/calde/AndroidStudioProjects/HiApp/app/src/main/res/layout/activity_main.xml" value="0.4" />
-        <entry key="..\:/Users/calde/AndroidStudioProjects/HiApp/app/src/main/res/layout/activity_registrarse.xml" value="0.264" />
-        <entry key="..\:/Users/calde/AndroidStudioProjects/HiApp/app/src/main/res/layout/activity_registro.xml" value="0.152" />
+        <entry key="..\:/Users/Dany/AndroidStudioProjects/HiApp/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/cesar/Desktop/HiApp/app/src/main/res/drawable-v24/btn.xml" value="0.2075" />
+        <entry key="..\:/Users/cesar/Desktop/HiApp/app/src/main/res/drawable-v24/btncolor.xml" value="0.2075" />
+        <entry key="..\:/Users/cesar/Desktop/HiApp/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/cesar/Desktop/HiApp/app/src/main/res/layout/activity_main.xml" value="0.14266304347826086" />
+        <entry key="..\:/Users/cesar/Desktop/HiApp/app/src/main/res/layout/activity_registrarse.xml" value="0.2" />
+        <entry key="..\:/Users/cesar/Desktop/HiApp/app/src/main/res/layout/activity_registro.xml" value="0.19429347826086957" />
       </map>
     </option>
   </component>
