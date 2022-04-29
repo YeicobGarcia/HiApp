@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo_ingreso"
     android:orientation="vertical"
+    android:background="@drawable/fondo_ingreso"
     tools:context=".Registro">
 
     <RelativeLayout
@@ -36,6 +36,7 @@
             android:layout_height="48dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true"
+            android:visibility="gone"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="200dp"
             android:layout_marginEnd="50dp"
@@ -44,8 +45,7 @@
             android:contentDescription="@string/app_name"
             android:scaleType="fitCenter"
             android:src="@drawable/recaptcha"
-            android:textColor="#F9A825"
-            android:visibility="gone" />
+            android:textColor="#F9A825" />
 
 
     </RelativeLayout>
@@ -170,8 +170,8 @@
             android:buttonTint="#FFFBF8"
             android:hint="#FFFBF8"
             android:text="No soy un Robot "
-            android:textColor="#F9A825"
             android:visibility="gone"
+            android:textColor="#F9A825"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/TyCondiciones" />
