@@ -58,7 +58,7 @@
             android:background="@drawable/btncolor"
             android:text="Iniciar Sesion"
             android:textAllCaps="false"
-            android:textColor="#FFFBF8" />
+            android:textColor="#6A1B9A" />
 
         <Button
             android:id="@+id/btnRegistro"
@@ -68,7 +68,7 @@
             android:background="@drawable/btncolor"
             android:text="Crear Usuario"
             android:textAllCaps="false"
-            android:textColor="#FFFBF8" />
+            android:textColor="#6A1B9A" />
 
         <ProgressBar
             android:id="@+id/progress"

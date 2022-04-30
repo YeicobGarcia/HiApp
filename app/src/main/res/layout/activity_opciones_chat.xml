@@ -11,7 +11,7 @@
         android:id="@+id/view"
         android:layout_width="420dp"
         android:layout_height="105dp"
-        android:background="@android:color/system_neutral1_900"
+        android:background="#FF091E28"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -26,7 +26,8 @@
         android:fontFamily="@font/mclaren"
         android:text="HiApp"
         android:textColor="#F6F6F6"
-        android:textSize="34sp"
+        android:textSize="35sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.101"
@@ -38,18 +39,20 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="244dp"
+        android:layout_width="300dp"
         android:layout_height="59dp"
+        android:fontFamily="@font/audiowide"
         android:text="CHAT PRIVADO"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="34sp"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.593" />
+        app:layout_constraintVertical_bias="0.617" />
 
     <TextView
         android:id="@+id/textView4"
@@ -57,17 +60,18 @@
         android:layout_height="49dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
+        android:fontFamily="@font/audiowide"
         android:text="GRUPOS"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="34sp"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.2" />
+        app:layout_constraintVertical_bias="0.219" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -89,7 +93,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:autoText="false"
-        android:backgroundTint="#00E676"
+        android:background="@drawable/btncolor"
         android:foregroundTint="@color/purple_200"
         android:foregroundTintMode="add"
         android:text="ENTRAR"
@@ -109,7 +113,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:autoText="false"
-        android:backgroundTint="#00E676"
+        android:background="@drawable/btncolor"
         android:foregroundTint="@color/purple_200"
         android:foregroundTintMode="add"
         android:text="ENTRAR"
