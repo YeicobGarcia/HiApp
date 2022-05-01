@@ -1,5 +1,3 @@
-import org.gradle.api.initialization.resolve.RepositoriesMode
-
 pluginManagement {
     repositories {
         gradlePluginPortal()
@@ -7,12 +5,12 @@ pluginManagement {
         mavenCentral()
     }
 }
-dependencyResolutionManagement {
+/*dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
     repositories {
         google()
         mavenCentral()
     }
-}
+}*/
 rootProject.name = "HiApp!"
 include ':app'
