@@ -62,7 +62,7 @@ public class Registro extends AppCompatActivity implements GoogleApiClient.Conne
     ProgressBar progressBar;
     TextView YaMiembro;
 
-    String SiteKey = "6LdMJ30fAAAAAAxx66Jc260Oak6P68wgfozDpRMO";
+    String SiteKey = "6LdDHbcfAAAAADRlPidudtwy9YXpG6egYZmVQo_A";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

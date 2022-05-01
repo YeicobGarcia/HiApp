@@ -9,7 +9,7 @@
 
     <View
         android:id="@+id/view"
-        android:layout_width="420dp"
+        android:layout_width="match_parent"
         android:layout_height="105dp"
         android:background="#FF091E28"
         app:layout_constraintBottom_toBottomOf="parent"
