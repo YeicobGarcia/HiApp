@@ -175,7 +175,7 @@ public class Registro extends AppCompatActivity implements GoogleApiClient.Conne
                                     //End ProgressBar (Set visibility to GONE)
                                     if(result.equals("Sign Up Success")){
                                         Toast.makeText(getApplicationContext(),result,Toast.LENGTH_SHORT).show();
-                                        Intent intent = new Intent(Registro.this, Login.class);
+                                        Intent intent = new Intent(Registro.this, MainActivity.class);
                                         startActivity(intent);
                                         finish();
                                     }
@@ -198,7 +198,7 @@ public class Registro extends AppCompatActivity implements GoogleApiClient.Conne
         YaMiembro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Login.class);
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(intent);
                 finish();
             }

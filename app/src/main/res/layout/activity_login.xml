@@ -29,7 +29,7 @@
             android:textStyle="bold|italic" />
 
         <EditText
-            android:id="@+id/txtUsuario"
+            android:id="@+id/etUsuario"
             android:layout_width="250dp"
             android:layout_height="48dp"
             android:background="@drawable/btn"
@@ -39,7 +39,7 @@
             android:textColorHint="#1DE9B6" />
 
         <EditText
-            android:id="@+id/txtPassword"
+            android:id="@+id/etContrasena"
             android:layout_width="250dp"
             android:layout_height="48dp"
             android:layout_marginVertical="20dp"
@@ -52,7 +52,7 @@
             android:textColorHint="#1DE9B6" />
 
         <Button
-            android:id="@+id/btnIngresar"
+            android:id="@+id/btnLogin"
             android:layout_width="250dp"
             android:layout_height="48dp"
             android:layout_marginVertical="5dp"
